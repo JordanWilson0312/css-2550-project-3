@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twilight Imperium 4 Fan Site</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="img/TI4 logo.png" alt="TI4 Logo" class="logo">
+      <h1>Twilight Imperium 4th Edition</h1>
+    </header>
+
+    <aside>
+      <nav class="slide-nav">
+        <a onclick="showSection('home')"><i class="fa-solid fa-house"></i> Home</a>
+        <a onclick="showSection('factions')"><i class="fa-solid fa-flag"></i> Factions</a>
+        <a onclick="showSection('lore')"><i class="fa-solid fa-book"></i> Lore</a>
+        <a onclick="showSection('contact')"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="home">
+        <h2>Welcome to Twilight Imperium</h2>
+        <p>Pax Magnifica Bellum Gloriosa</p>
+
+        <figure>
+          <picture>
+            <source media="(max-width: 600px)" srcset="img/small-map.jpg">
+            <source media="(min-width: 601px)" srcset="img/TI4 setup.png">
+            <img src="img/TI4 setup.png" alt="Set up game board" class="center-img">
+          </picture>
+          <figcaption>How the game looks when set up</figcaption>
+        </figure>
+
+        <details>
+          <summary>What is Twilight Imperium?</summary>
+          <p>Twilight Imperium is a 4X strategy board game of politics, war, and diplomacy.</p>
+        </details>
+      </section>
+
+      <section id="factions">
+        <h2>Factions</h2>
+
+        <article>
+          <h3>The Emirates of Hacan</h3>
+          <img src="img/Hacan.jpeg" class="faction-img" alt="Hacan">
+          <p>Masters of trade who dominate the galactic economy.</p>
+        </article>
+
+        <article>
+          <h3>Sardakk N'orr</h3>
+          <img src="img/sardakk.jpeg" class="faction-img" alt="Sardakk">
+          <p>A swarm of bug-like creatures that seek to spread and consume all.</p>
+        </article>
+
+        <article>
+          <h3>The Federation of Sol</h3>
+          <img src="img/sol.jpeg" class="faction-img" alt="Sol">
+          <p>Versatile and militaristic humans who started the Twilight Wars.</p>
+        </article>
+
+        <article>
+          <h3>The Universities of Jol'Nar</h3>
+          <img src="img/jolnar.jpeg" class="faction-img" alt="Jol'Nar">
+          <p>Highly intellectual fish people with no ethics or morality to speak of.</p>
+        </article>
+
+        <article>
+          <h3>The Xxcha Kingdom</h3>
+          <img src="img/xxcha.jpeg" class="faction-img" alt="Xxcha">
+          <p>Diplomatic turtle people who seek peace with the galaxy.</p>
+        </article>
+
+        <article>
+          <h3>The Barony of Letnev</h3>
+          <img src="img/barony.jpeg" class="faction-img" alt="Barony">
+          <p>Highly industrialized militarists who use their skilled admiralty to engage in big stick diplomacy.</p>
+        </article>
+      </section>
+
+      <section id="lore">
+        <h2>The story thus far</h2>
+        <article>
+            <p>"The Twilight Wars continued for centuries, but no race was powerful enough to seize the throne and risk suffering a similar fate as the Emperor. Slowly, the strength of great civilizations failed as their economies crumbled and as knowledge and technology was lost in the destruction and strain of long war.</p>
+            <p>And so the Age of Twilight ended in a slow whisper. The time that followed, now known as the Dark Years, was a period of economic, cultural, and intellectual collapse. The Great Races retreated into their own small, safe areas of space, abandoning what they could no longer hold by force. After several millennia, the Dark Years came to an end, and a calm but uncertain period of rebuilding began.</p>
+            <p>As I write this, the Great Races of the galaxy have regained elements of their former strength. Here on Mecatol Rex, the Galactic Council is growing in influence once more, while civilizations new and old, are re-colonizing the neighboring systems abandoned during the Dark Years.</p>
+            <p>The day will soon come when a new Empire will rise. For the sake of all, may the new Emperor have not only the power to seize the throne, but the strength to conquer the peace. If not, I fear that a sea of desolation will drown us all."</p>
+            <p>- Mahthom Iq Seerva, Winnaran keeper of the Custodian Chronicle</p>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: 11037101@uvu.edu</p>
+        <p>Interested in joining the UVU board game club? Shoot me an email or click 
+          <a href="https://uvu.campusgroups.com/BGC/club_signup">here</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Fan site made by Jordan Wilson for CS2550</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
